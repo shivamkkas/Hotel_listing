@@ -1,0 +1,321 @@
+
+body{
+    background-color: black;
+}
+.sidenav{
+    height: 456rem;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color:grey ;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    width: 4.1rem;
+    
+}
+
+.sidenav .drop-down {
+  list-style: none; 
+  overflow: hidden; 
+  background-color:grey;
+  font-family: Arial;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: height 0.3s ease;
+          transition: height 0.3s ease;
+}
+
+.sidenav .drop-down.closed {
+  height: 43px;
+}
+
+.sidenav .drop-down li {
+  border-bottom: 5px solid aqua;
+}
+
+.nav .drop-down li a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px; 
+}
+
+.sidenav .drop-down li:first-child a:after {
+  content: "\25BC";
+  float: right;
+  margin-left: -1px; 
+  margin-right: 5px;
+  color: red;
+}
+.sidenav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size:15px;
+    color:blue;
+    justify-self: auto;
+    display: flex;
+}
+.fa-bars{
+    margin-left:19px;
+    font-size: 30px;
+}
+.show {display: block;}
+
+    
+    
+   
+   
+.sidenav a:hover{
+    color: #f1f1f1;
+    flex-grow: 1;
+    display: flex;
+}
+#text1{
+    margin-top: 500px;
+    
+}
+.mynav{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 20px;
+    background-color: lightgrey;
+    top: 0;
+    left: 0;
+    margin-left: 65px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: wrap;
+    gap: 20px;
+   
+   
+}
+.image{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -5px;
+    margin-left: 100%;
+    flex: 1 0 60px;
+}
+.header{
+    margin-left: 37%;
+   
+}
+.myfooter{
+    height: 90px;
+    width: 92%;
+    z-index: 1;
+    overflow: hidden;
+    padding: 10px;
+    background:linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    border: solid;
+    margin-left: 5rem;
+  
+    
+}
+.myfooter img{
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+}
+    
+    
+
+
+
+.sep{
+    margin: -100px;
+    flex-grow: 1;
+    display: flex;
+    margin-right:30px;
+    
+}
+.box3{
+    margin-left: 6rem;
+    margin-top: 8rem;
+    
+
+
+}
+#box1 img{
+    border-radius: 15px;
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+#box2 img{
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+    object-fit: cover;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+#box3 img{
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+    object-fit: cover;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+#box4 img{
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+#box5 img{
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+    object-fit: cover;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+#box6 img{
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+    object-fit: cover;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+#box1 {
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+   
+}
+#box2 {
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+#box2spec p{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+#box2spec h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(225, 243, 248);
+
+
+}
+
+#box3 {
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+#box3spec p{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+#box3spec h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(225, 243, 248);
+
+}
+#box4 {
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+#box4spec p{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+#box4spec h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(225, 243, 248);
+
+}
+#box5 {
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+#box5spec p{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+#box5spec h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(225, 243, 248);
+
+}
+#box6{
+    background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+    border-style: solid  ;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+#box6spec p{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+#box6spec h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(225, 243, 248);
+
+}
+.fa-star{
+    align-items: flex-start;
+    gap: 3px;
+    margin-right: 10px;
+    
+
+    
+}
+.checked {
+    color: orange;
+  }
+
